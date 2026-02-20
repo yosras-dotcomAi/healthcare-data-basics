@@ -1,2 +1,25 @@
 # healthcare-data-basics
 this repository contains healthcare data analysis projects using Python. The aim is to combine nursing experience with data analytics skills
+# Healthcare Data Basics
+
+This repository represents the beginning of my journey in healthcare data analysis.
+
+## Day 1:
+- Created basic hospital dataset
+- Performed exploratory analysis
+- Visualized department distribution
+
+## Day 2:
+- Added missing values
+- Applied data cleaning techniques
+- Performed grouped analysis
+
+## Day 3:
+- Conducted correlation analysis
+- Created scatter plot visualization
+- Added analytical insight interpretation
+
+## Day 4:
+- Added clinical question framing
+- Provided deeper interpretation
+- Included statistical summary using describe()
