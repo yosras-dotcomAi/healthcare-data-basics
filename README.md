@@ -23,3 +23,11 @@ This repository represents the beginning of my journey in healthcare data analys
 - Added clinical question framing
 - Provided deeper interpretation
 - Included statistical summary using describe()
+
+
+## Day 5:
+
+- The average length of stay in the medical-surgical ward was approximately 6 days.
+- Stroke and COPD patients showed longer hospital stays.
+- There is a moderate positive correlation between age and length of stay.
+- Older patients tend to have longer hospital stays.
