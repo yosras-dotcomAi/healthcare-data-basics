@@ -24,6 +24,27 @@ This repository represents the beginning of my journey in healthcare data analys
 - Provided deeper interpretation
 - Included statistical summary using describe()
 
+## Day 5:
+healthcare-data-basics/
+│
+├── data/
+├── notebooks/
+├── images/
+├── README.md
+└── requirements.txt
+
+
+## Day :
+## 📊 Hospital Bed Occupancy Analysis
+
+This project analyzes hospital bed occupancy rate over one week.
+
+### Key Insights:
+- Highest occupancy was mid-week.
+- Occupancy dropped during weekends.
+- Average occupancy rate was around 70–80%.
+
+
 
 ## Day 5:
 
