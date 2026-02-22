@@ -52,3 +52,21 @@ This project analyzes hospital bed occupancy rate over one week.
 - Stroke and COPD patients showed longer hospital stays.
 - There is a moderate positive correlation between age and length of stay.
 - Older patients tend to have longer hospital stays.
+
+
+## 🦠 Infection Rate Dashboard
+
+This project analyzes the weekly infection rate in a medical-surgical ward.
+
+## Day 6
+
+- The average infection rate during the month was approximately 5–6%.
+- Week 4 showed the highest infection rate.
+- Infection rate increased when total patient volume increased.
+- Monitoring infection trends helps improve infection control strategies.
+
+### 🛠 Tools Used
+- Python
+- Pandas
+- Matplotlib
+
