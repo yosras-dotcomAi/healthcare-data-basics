@@ -15,6 +15,23 @@ Each script uses a small **synthetic** hospital dataset (no real patient data) t
 
 ## How to run
 
+## Results
+
+**Patients per department** (script 01)
+
+![Patients per department](images/01_patients_per_department.png)
+
+**Average length of stay per department** (script 02)
+
+![Average length of stay per department](images/02_avg_los_per_department.png)
+
+**Age vs length of stay** (script 05)
+
+![Age vs length of stay](images/05_age_vs_los_scatter.png)
+
+**Average length of stay per diagnosis** (script 05)
+
+![Average length of stay per diagnosis](images/05_avg_los_per_diagnosis.png)
 ```bash
 pip install pandas matplotlib
 python 01_hospital_dataset_exploration.py
