@@ -1,72 +1,34 @@
-# healthcare-data-basics
-this repository contains healthcare data analysis projects using Python. The aim is to combine nursing experience with data analytics skills
 # Healthcare Data Basics
 
-This repository represents the beginning of my journey in healthcare data analysis.
+Python practice projects that combine nursing experience with data analysis.
+Each script uses a small **synthetic** hospital dataset (no real patient data) to practice a core analytics skill.
 
-## Day 1:
-- Created basic hospital dataset
-- Performed exploratory analysis
-- Visualized department distribution
+## Scripts
 
-## Day 2:
-- Added missing values
-- Applied data cleaning techniques
-- Performed grouped analysis
+| Script | What it does | Skills |
+|---|---|---|
+| `01_hospital_dataset_exploration.py` | Builds a basic hospital dataset and plots patients per department | DataFrames, value counts, bar charts |
+| `02_data_cleaning.py` | Handles missing values and compares length of stay by department | Missing data, imputation, groupby |
+| `03_correlation_analysis.py` | Tests the relationship between age and length of stay | Correlation, scatter plots |
+| `04_clinical_questions_summary.py` | Frames a clinical question and answers it with summary statistics | describe(), groupby, interpretation |
+| `05_bed_occupancy_analysis.py` | Analyzes length of stay by age and diagnosis across 20 patients | EDA, correlation, grouped charts |
 
-## Day 3:
-- Conducted correlation analysis
-- Created scatter plot visualization
-- Added analytical insight interpretation
+## How to run
 
-## Day 4:
-- Added clinical question framing
-- Provided deeper interpretation
-- Included statistical summary using describe()
+```bash
+pip install pandas matplotlib
+python 01_hospital_dataset_exploration.py
+```
 
-## Day 5:
-healthcare-data-basics/
-│
-├── data/
-├── notebooks/
-├── images/
-├── README.md
-└── requirements.txt
+## Note on data
 
+All datasets are invented for learning purposes. They do not represent any real hospital or patient.
 
-## Day :
-## 📊 Hospital Bed Occupancy Analysis
+## Next
 
-This project analyzes hospital bed occupancy rate over one week.
+A larger supply-readiness project built on simulated hospital data:
+[hajj-supply-readiness](https://github.com/yosras-dotcomAi/hajj-supply-readiness)
 
-### Key Insights:
-- Highest occupancy was mid-week.
-- Occupancy dropped during weekends.
-- Average occupancy rate was around 70–80%.
+## Tools
 
-
-
-## Day 5:
-
-- The average length of stay in the medical-surgical ward was approximately 6 days.
-- Stroke and COPD patients showed longer hospital stays.
-- There is a moderate positive correlation between age and length of stay.
-- Older patients tend to have longer hospital stays.
-
-
-## 🦠 Infection Rate Dashboard
-
-This project analyzes the weekly infection rate in a medical-surgical ward.
-
-## Day 6
-
-- The average infection rate during the month was approximately 5–6%.
-- Week 4 showed the highest infection rate.
-- Infection rate increased when total patient volume increased.
-- Monitoring infection trends helps improve infection control strategies.
-
-### 🛠 Tools Used
-- Python
-- Pandas
-- Matplotlib
-
+Python, pandas, matplotlib
