@@ -14,10 +14,9 @@ df = pd.DataFrame(data)
 print("Missing Values:")
 print(df.isnull().sum())
 
-
-df["Length_of_Stay"].fillna(df["Length_of_Stay"].mean(), inplace=True)
-df["Age"].fillna(df["Age"].median(), inplace=True)
-df["Department"].fillna("Unknown", inplace=True)
+df["Length_of_Stay"] = df["Length_of_Stay"].fillna(df["Length_of_Stay"].mean())
+df["Age"] = df["Age"].fillna(df["Age"].median())
+df["Department"] = df["Department"].fillna("Unknown")
 
 print("After Cleaning:")
 print(df)
